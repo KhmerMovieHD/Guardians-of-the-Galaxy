@@ -30,7 +30,7 @@ const playerInstance = jwplayer("player").setup({
       sources: [
         {
           file:
-            "https://raw.githubusercontent.com/KhmerMovieHD/lek1/main/index.m3u8",
+            "https://vod-normal-global-cdn-z02.afreecatv.com/v101/hls/save/afreeca/station/2024/0131/22/1706706191977407.mp4/original/both/playlist.m3u8",
           label: "1080p",
           default: true
         }
@@ -38,13 +38,13 @@ const playerInstance = jwplayer("player").setup({
       captions: [
         {
           file:
-            "",
+            "https://raw.githubusercontent.com/KhmerMovieHD/Sub/main/Guardians%20of%20the%20Galaxy%203%20SDH.km.srt",
           label: "Khmer",
           kind: "captions"
         },
         {
           file:
-            "",
+            "https://github.com/KhmerMovieHD/Sub/blob/main/Guardians%20of%20the%20Galaxy%203%20SDH.srt",
           label: "English",
           kind: "captions",
           default: true
